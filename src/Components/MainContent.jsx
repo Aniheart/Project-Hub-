@@ -6,7 +6,7 @@ function MainContent() {
     <div className='main-content' 
   //   style={{
   //   backgroundImage: `url(${bg})`,
-  //   backgroundSize: 'cover',
+  //   backgroundSize:` 'cover',
   //   backgroundPosition: 'center'
   // }}
 
