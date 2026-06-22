@@ -18,12 +18,14 @@ function Login() {
   >Project Hub</Link>   
 <form className='login_form_main'>   
     <div className="login_form1">
-        <div style={{display:'flex', flexDirection:'column', gap:7}}>
+        <div style={{display:'flex', flexDirection:'column', alignItems:'right', gap:7}}>
         <h3>Create your account</h3>
         <p style={{fontSize:12
 
         }}>Start finding teammates today</p>
-   </div>     <button className='login_google_btn' >
+   </div> 
+   
+       <button className='login_google_btn' >
 
            <FcGoogle size={15}  style={{background:'transparent'}}/>  Sign up with Google
         </button>
@@ -44,7 +46,7 @@ function Login() {
         </button>
        <div className="new_accoount_div">
          <p
-         style={{fontSize:10
+         style={{fontSize:13
          }}
          >Already have an account? <Link to ='/signup'>Sign up</Link></p>
        </div>

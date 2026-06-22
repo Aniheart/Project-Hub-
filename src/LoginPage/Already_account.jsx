@@ -43,7 +43,7 @@ function Already_account() {
         </button>
        <div className="new_accoount_div">
          <p
-         style={{fontSize:10
+         style={{fontSize:13
          }}
          >New here?<Link to ='/createAccount'> Create new account</Link></p>
        </div>

@@ -368,7 +368,6 @@ padding: 50px 10%;
 .login_page{
     color: white;
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 20px;
     flex-direction: column;
@@ -378,7 +377,6 @@ padding: 50px 10%;
    box-sizing: border-box;
 border: none;
     background: black(0, 0, 0);
-    width: fit-content;
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -458,6 +456,7 @@ color: black;
     }
 
     .login_form1{
+
         width: 100%;
         padding: 15px;
     }
@@ -483,6 +482,6 @@ color: black;
     }
 
     p{
-        text-align: center;
+        text-align: left;
     }
 }
