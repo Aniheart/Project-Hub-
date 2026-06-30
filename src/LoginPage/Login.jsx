@@ -24,11 +24,12 @@ function Login() {
 
         }}>Start finding teammates today</p>
    </div> 
+      <Link to = '/Dashboard'>
+    <button className='login_google_btn' >
    
-       <button className='login_google_btn' >
-
-           <FcGoogle size={15}  style={{background:'transparent'}}/>  Sign up with Google
-        </button>
+              <FcGoogle size={15}  style={{background:'transparent'}}/>  Sign up with Google
+           </button>
+   </Link>
        
 <hr style={{marginTop:15}}/>
 
@@ -40,10 +41,11 @@ function Login() {
 <input id="username" type="email" placeholder='you@example.com'  required/>
 <label htmlFor="password" className='labelName'>Password</label>
 <input id="username" type="password" placeholder='At least 6 characters' required />
+<Link to = '/Dashboard'>
 <button className='login_submit_btn' >
-
-            Create account
+      Create account
         </button>
+</Link>
        <div className="new_accoount_div">
          <p
          style={{fontSize:13

@@ -23,10 +23,16 @@ function Already_account() {
         <p style={{fontSize:12
 
         }}>Start finding teammates today</p>
-   </div>     <button className='login_google_btn' >
+   </div>   
+   
+   <Link to = '/Dashboard'>
+ <button className='login_google_btn' >
 
            <FcGoogle size={15}  style={{background:'transparent'}}/>  Sign up with Google
         </button>
+</Link>
+   
+    
        
 <hr style={{marginTop:15}}/>
 
@@ -37,10 +43,14 @@ function Already_account() {
 <input id="username" type="email" placeholder='you@example.com'  required/>
 <label htmlFor="name" className='labelName'>Password</label>
 <input id="username" type="text" placeholder='Enter Password' required />
+
+<Link to = '/Dashboard'>
 <button className='login_submit_btn' >
 
             Sign In
         </button>
+</Link>
+
        <div className="new_accoount_div">
          <p
          style={{fontSize:13

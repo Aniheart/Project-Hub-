@@ -3,6 +3,7 @@ import Login from './LoginPage/Login.jsx'
 import {Route,Routes} from 'react-router-dom'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home.jsx'
+import IntroPage from './LoginDashboard/IntroPage.jsx'
 import Already_account from './LoginPage/Already_account.jsx'
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/createAccount" element={<Login />} />
         <Route path="/signup" element={<Already_account />} />
+        <Route path="/Dashboard" element={<IntroPage />} />
+        
       </Routes>
      
       
